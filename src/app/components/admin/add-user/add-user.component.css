@@ -1,0 +1,56 @@
+.form-container {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #1e3c72cc, #2a5298cc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  
+  .overlay-bg::before {
+    content: "";
+    background: url('https://www.transparenttextures.com/patterns/diagmonds.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+    z-index: 1;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .form-control,
+  .form-select {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #fff;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .form-control:focus,
+  .form-select:focus {
+    background-color: rgba(12, 12, 12, 0.932);
+    border-color: #ffffff;
+    color: #fff;
+    box-shadow: none;
+  }
+  
+  label {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  span {
+    color: red;
+  }
+  

@@ -1,0 +1,12 @@
+.login-container {
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  }
+  
+  .login-title {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .object-fit-cover {
+    object-fit: cover;
+  }

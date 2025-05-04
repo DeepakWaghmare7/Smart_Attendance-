@@ -1,0 +1,43 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-4" href="#">SAM-TRACK</a>
+      <div class="ms-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+<div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center login-container">
+    <div class="row w-100 shadow-lg rounded overflow-hidden" style="max-width: 900px;">
+      
+      <!-- Left Column: Image -->
+      <div class="col-md-6 d-none d-md-block p-0">
+        <img src="assets/login-image.jpg" alt="Login Visual" class="img-fluid h-100 w-100 object-fit-cover">
+      </div>
+  
+      <!-- Right Column: Login Form -->
+      <div class="col-md-6 bg-white p-5">
+        <h2 class="mb-4 text-center login-title">Login</h2>
+        <form>
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" name="username"  [(ngModel)]="user.username">
+          </div>
+          <div class="mb-4">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="password" name="password" [(ngModel)]="user.password">
+          </div>
+          <button (click)="login()" class="btn btn-dark w-100">Login</button>
+        </form>
+        
+      </div>
+  
+    </div>
+    
+  </div>
+  

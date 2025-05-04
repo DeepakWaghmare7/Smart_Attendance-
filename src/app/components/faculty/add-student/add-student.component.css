@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Container */
+  .form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  /* Card Style */
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 25px;
+  }
+  
+  /* Header */
+  .card-header {
+    margin-bottom: 20px;
+  }
+  
+  .card-header h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Form Labels */
+  .form-label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #495057;
+  }
+  
+  /* Form Inputs */
+  .form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.2);
+  }
+  
+  /* Button */
+  .btn {
+    display: block;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 576px) {
+    .form-container {
+      padding: 10px;
+    }
+  
+    .card {
+      padding: 20px 15px;
+    }
+  }

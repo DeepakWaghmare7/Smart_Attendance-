@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page Title */
+  .page-title {
+    margin-bottom: 30px;
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+  }
+  
+  /* Table Styles */
+  .table {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table thead.table-dark {
+    background-color: #343a40;
+  }
+  
+  .table thead th {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .table tbody td {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  /* Button Styling */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Responsive Enhancements */
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 1.5rem;
+    }
+  
+    .table th,
+    .table td {
+      font-size: 0.85rem;
+      padding: 8px;
+    }
+  
+    .btn {
+      font-size: 0.8rem;
+      padding: 6px 10px;
+    }
+  }

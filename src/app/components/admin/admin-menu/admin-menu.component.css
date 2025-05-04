@@ -1,0 +1,32 @@
+.admin-navbar {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    padding: 0.8rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-navbar .nav-link {
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .admin-navbar .nav-link:hover {
+    color: #ffc107;
+  }
+  
+  .admin-navbar .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .admin-navbar .btn-outline-light:hover {
+    background-color: #fff;
+    color: #2a5298;
+  }
+  
+  .admin-navbar .btn-danger {
+    font-weight: 500;
+  }
+  
